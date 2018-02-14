@@ -1,0 +1,80 @@
+{
+  "name": "@zazen/eslint-config",
+  "version": "0.0.0",
+  "description": "Lint JavaScript, free of weariness and confusion",
+  "homepage": "https://github.com/stormwarning/zazen-eslint-config",
+  "author": "Jeff <rustyangel@gmail.com> (https://tidaltheory.co)",
+  "dependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^6.0.0",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "prettier-eslint-cli": "^4.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^6.1.0",
+    "npm-run-all": "^4.1.2",
+    "remark-cli": "^5.0.0",
+    "remark-contributors": "^3.1.0",
+    "remark-github": "^7.0.3",
+    "remark-preset-lint-markdown-style-guide": "^2.1.1",
+    "remark-toc": "^5.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=3"
+  },
+  "keywords": [
+    "eslint-config"
+  ],
+  "license": "MIT",
+  "lint-staged": {
+    "*.{js|json}": [
+      "prettier-eslint --list-different",
+      "git add"
+    ],
+    "*.md": [
+      "remark . -qo",
+      "git add"
+    ]
+  },
+  "publishConfig": {
+    "message": "🔖 %s"
+  },
+  "remarkConfig": {
+    "plugins": [
+      "preset-lint-markdown-style-guide",
+      [
+        "lint-maximum-line-length",
+        false
+      ],
+      [
+        "lint-list-item-spacing",
+        false
+      ],
+      "contributors",
+      "github",
+      "toc"
+    ],
+    "settings": {
+      "commonmark": true,
+      "bullet": "-",
+      "listItemIndent": 1,
+      "rule": "-",
+      "ruleSpaces": false,
+      "strong": "*",
+      "emphasis": "*"
+    }
+  },
+  "repository": "stormwarning/zazen-eslint-config",
+  "scripts": {
+    "lint": "npm-run-all lint:*",
+    "lint:scripts": "prettier-eslint '**/*.js' --write --list-different",
+    "lint:markdown": "remark . -qo",
+    "precommit": "lint-staged && npm test",
+    "test": "npm run lint"
+  }
+}
