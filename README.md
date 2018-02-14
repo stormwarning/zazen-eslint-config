@@ -1,0 +1,1 @@
+# zazen-eslint-config
