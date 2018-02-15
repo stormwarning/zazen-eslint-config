@@ -41,9 +41,6 @@
       "git add"
     ]
   },
-  "publishConfig": {
-    "message": "🔖 %s"
-  },
   "remarkConfig": {
     "plugins": [
       "preset-lint-markdown-style-guide",
