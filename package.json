@@ -36,10 +36,6 @@
     "*.{js|json}": [
       "prettier-eslint --list-different",
       "git add"
-    ],
-    "*.md": [
-      "remark . -qo",
-      "git add"
     ]
   },
   "remarkConfig": {
