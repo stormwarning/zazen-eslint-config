@@ -9,7 +9,7 @@ All notable changes to this project will be documented in this file.
 
 ### Fixed
 
--   Include missing `import` plugin for rules that reference it
+- Include missing `import` plugin for rules that reference it
 
 ## 0.1.0 — 2018-02-15
 
