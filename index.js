@@ -10,6 +10,7 @@ module.exports = {
         es6: true,
         node: true,
     },
+    plugins: ['import'],
     extends: ['standard', './code-style.js', './best-practices.js'],
     rules: {},
 }
