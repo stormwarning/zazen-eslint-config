@@ -1,6 +1,6 @@
 {
   "name": "@zazen/eslint-config",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Lint JavaScript, free of weariness and confusion",
   "homepage": "https://github.com/stormwarning/zazen-eslint-config",
   "author": "Jeff <rustyangel@gmail.com> (https://tidaltheory.co)",
