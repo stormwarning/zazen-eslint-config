@@ -5,6 +5,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.2.0 — 2018-04-17
+
+### Added
+
+- Add optional rules for Vuejs projects
+
 ## 0.1.1 — 2018-02-19
 
 ### Fixed
