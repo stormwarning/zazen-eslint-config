@@ -5,6 +5,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.2.1 — 2018-09-08
+
+### Fixed
+
+- Add Vuejs plugin as dependency instead of devDependency
+
 ## 0.2.0 — 2018-04-17
 
 ### Added
