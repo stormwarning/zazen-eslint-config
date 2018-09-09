@@ -1,9 +1,18 @@
 {
   "name": "@zazen/eslint-config",
-  "version": "0.2.0",
   "description": "Lint JavaScript, free of weariness and confusion",
-  "homepage": "https://github.com/stormwarning/zazen-eslint-config",
+  "license": "MIT",
   "author": "Jeff <rustyangel@gmail.com> (https://tidaltheory.co)",
+  "homepage": "https://github.com/stormwarning/zazen-eslint-config",
+  "repository": "stormwarning/zazen-eslint-config",
+  "version": "0.2.0",
+  "scripts": {
+    "precommit": "lint-staged && npm test",
+    "lint": "npm-run-all lint:*",
+    "lint:markdown": "remark . -qo",
+    "lint:scripts": "prettier-eslint '**/*.js' --write --list-different",
+    "test": "npm run lint"
+  },
   "dependencies": {
     "babel-eslint": "^8.2.1",
     "eslint-config-standard": "^11.0.0",
@@ -13,6 +22,9 @@
     "eslint-plugin-standard": "^3.0.1",
     "eslint-plugin-vue": "^4.7.1",
     "prettier-eslint-cli": "^4.7.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=4"
   },
   "devDependencies": {
     "eslint": "^4.18.0",
@@ -25,14 +37,10 @@
     "remark-preset-lint-markdown-style-guide": "^2.1.1",
     "remark-toc": "^5.0.0"
   },
-  "peerDependencies": {
-    "eslint": ">=4"
-  },
   "keywords": [
     "eslint-config",
     "standard style"
   ],
-  "license": "MIT",
   "lint-staged": {
     "*.{js|json}": [
       "prettier-eslint --list-different",
@@ -63,13 +71,5 @@
       "strong": "*",
       "emphasis": "*"
     }
-  },
-  "repository": "stormwarning/zazen-eslint-config",
-  "scripts": {
-    "lint": "npm-run-all lint:*",
-    "lint:scripts": "prettier-eslint '**/*.js' --write --list-different",
-    "lint:markdown": "remark . -qo",
-    "precommit": "lint-staged && npm test",
-    "test": "npm run lint"
   }
 }
