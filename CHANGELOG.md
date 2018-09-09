@@ -5,6 +5,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.3.0 — 2018-09-09
+
+### Changed
+
+- Upgraded Standard config and associated plugins to latest major version
+
 ## 0.2.1 — 2018-09-08
 
 ### Fixed
