@@ -1,7 +1,7 @@
 module.exports = {
+    parser: 'babel-eslint',
     parserOptions: {
-        parser: 'babel-eslint',
-        ecmaVersion: 6,
+        ecmaVersion: 2018,
         sourceType: 'module',
     },
     env: {
@@ -9,7 +9,6 @@ module.exports = {
         es6: true,
         node: true,
     },
-    plugins: ['import'],
     extends: ['standard', './code-style.js', './best-practices.js'],
     rules: {},
 }
