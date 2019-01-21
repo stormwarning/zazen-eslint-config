@@ -1,7 +1,7 @@
 {
   "name": "@zazen/eslint-config",
   "description": "Lint JavaScript, free of weariness and confusion",
-  "license": "MIT",
+  "license": "ISC",
   "author": "Jeff <rustyangel@gmail.com> (https://tidaltheory.co)",
   "homepage": "https://github.com/stormwarning/zazen-eslint-config",
   "repository": "stormwarning/zazen-eslint-config",
@@ -43,12 +43,6 @@
     "eslint-config",
     "standard style"
   ],
-  "prettier": {
-    "arrowParens": "always",
-    "semi": false,
-    "singleQuote": true,
-    "tabWidth": 4
-  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
@@ -59,6 +53,12 @@
       "prettier-eslint --list-different",
       "git add"
     ]
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "semi": false,
+    "singleQuote": true,
+    "tabWidth": 4
   },
   "remarkConfig": {
     "plugins": [
