@@ -1,12 +1,13 @@
 {
   "name": "@zazen/eslint-config",
   "description": "Lint JavaScript, free of weariness and confusion",
-  "license": "MIT",
+  "license": "ISC",
   "author": "Jeff <rustyangel@gmail.com> (https://tidaltheory.co)",
   "homepage": "https://github.com/stormwarning/zazen-eslint-config",
   "repository": "stormwarning/zazen-eslint-config",
   "version": "0.3.0",
   "scripts": {
+    "eslint-check": "eslint --print-config . | eslint-config-prettier-check",
     "lint": "npm-run-all lint:*",
     "lint:markdown": "remark . -qo",
     "lint:scripts": "prettier-eslint '**/*.js' --write --list-different",
@@ -17,6 +18,7 @@
   },
   "dependencies": {
     "babel-eslint": "^10.0.1",
+    "eslint-config-prettier": "^3.6.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-node": "^8.0.0",
@@ -51,6 +53,12 @@
       "prettier-eslint --list-different",
       "git add"
     ]
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "semi": false,
+    "singleQuote": true,
+    "tabWidth": 4
   },
   "remarkConfig": {
     "plugins": [

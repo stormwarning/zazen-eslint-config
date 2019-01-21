@@ -9,16 +9,44 @@
 
 Install the conventions by running:
 
-```sh
+```shell
 npm install --save-dev eslint @zazen/eslint-config
 ```
 
-Then add the extends to your `.eslintrc.js`:
+Add the extends to your `.eslintrc.js`:
 
 ```js
 {
-  extends: '@zazen/eslint-config',
-  rules: { /* … */ }
+    extends: ['@zazen/eslint-config'],
+    rules: { /* … */ }
+}
+```
+
+Add the Prettier settings to your `package.json`:
+
+```json
+"prettier": {
+    "arrowParens": "always",
+    "semi": false,
+    "singleQuote": true,
+    "tabWidth": 4
+},
+```
+
+### Vue.js projects
+
+Install the optionalDependency `eslint-plugin-vue`:
+
+```shell
+npm install --save-dev eslint-plugin-vue
+```
+
+Extend the Vue-specific settings in `.eslintrc.js`:
+
+```js
+{
+    extends: ['@zazen/eslint-config', '@zazen/eslint-config/vue'],
+    rules: { /* … */ }
 }
 ```
 
