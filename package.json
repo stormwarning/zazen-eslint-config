@@ -61,7 +61,8 @@
     "arrowParens": "always",
     "semi": false,
     "singleQuote": true,
-    "tabWidth": 4
+    "tabWidth": 4,
+    "trailingComma": "all"
   },
   "release": {
     "extends": "@zazen/semantic-release"
@@ -75,6 +76,10 @@
       ],
       [
         "lint-list-item-spacing",
+        false
+      ],
+      [
+        "lint-no-duplicate-headings",
         false
       ],
       "github",
