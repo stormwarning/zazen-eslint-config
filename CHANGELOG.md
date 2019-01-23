@@ -5,6 +5,22 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="1.0.0"></a>
+
+## [1.0.0](https://github.com/stormwarning/zazen-eslint-config/compare/v0.3.0...v1.0.0) — 2019-01-23
+
+### Added
+
+- 🎁 Add Prettier configs for Standard & Vue ([#9](https://github.com/stormwarning/zazen-eslint-config/issues/9)) ([a31adb8](https://github.com/stormwarning/zazen-eslint-config/commit/a31adb8))
+
+### Other updates
+
+- 📄 Add license ([4a18a78](https://github.com/stormwarning/zazen-eslint-config/commit/4a18a78))
+
+
+
+- 🚚 Change Vue plugin to an optional dependency ([#7](https://github.com/stormwarning/zazen-eslint-config/issues/7)) ([fb3d780](https://github.com/stormwarning/zazen-eslint-config/commit/fb3d780))
+
 ## 0.3.0 — 2018-09-09
 
 ### Changed
