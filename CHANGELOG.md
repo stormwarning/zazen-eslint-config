@@ -5,6 +5,21 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="2.0.0"></a>
+
+## [2.0.0](https://github.com/stormwarning/zazen-eslint-config/compare/v1.0.0...v2.0.0) — 2020-01-21
+
+#### Changed
+
+- 📦 Downgrade `semantic-release` to previous major [[`7dc7a38`](https://github.com/stormwarning/zazen-eslint-config/commit/7dc7a38)]
+- 📦 Upgrade dependencies ([#115](https://github.com/stormwarning/zazen-eslint-config/issues/115)) [[`9478461`](https://github.com/stormwarning/zazen-eslint-config/commit/9478461)]
+
+
+### BREAKING CHANGES
+
+- Drops `prettier-eslint-cli` in favour of running Prettier as an
+eslint rule.
+
 <a name="1.0.0"></a>
 
 ## [1.0.0](https://github.com/stormwarning/zazen-eslint-config/compare/v0.3.0...v1.0.0) — 2019-01-23
