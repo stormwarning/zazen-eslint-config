@@ -32,7 +32,7 @@
   "devDependencies": {
     "@zazen/semantic-release": "0.1.x",
     "eslint": "6.8.x",
-    "husky": "4.0.x",
+    "husky": "4.2.x",
     "lint-staged": "10.0.x",
     "prettier": "1.19.x",
     "semantic-release": "15.14.x"
