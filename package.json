@@ -16,7 +16,7 @@
     "eslint-plugin-vue": "6.1.x"
   },
   "dependencies": {
-    "babel-eslint": "10.0.3",
+    "babel-eslint": "10.1.0",
     "eslint-config-prettier": "6.9.0",
     "eslint-config-standard": "14.1.0",
     "eslint-plugin-import": "2.20.0",
