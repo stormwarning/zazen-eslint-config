@@ -34,7 +34,7 @@
     "eslint": "6.8.x",
     "husky": "4.0.x",
     "lint-staged": "10.0.x",
-    "prettier": "1.19.x",
+    "prettier": "2.1.x",
     "semantic-release": "15.14.x"
   },
   "keywords": [
