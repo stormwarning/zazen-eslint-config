@@ -1,62 +1,49 @@
 # Change Log
 
-[![Keep a Changelog](https://img.shields.io/badge/keep%20a-changelog-ef5e39.svg?style=flat-square)](https://keepachangelog.com)
-[![Semantic Versioning](https://img.shields.io/badge/semantic-versioning-333333.svg?style=flat-square)](https://semver.org)
+## 2.0.0 — 2020-01-21
 
-All notable changes to this project will be documented in this file.
-
-<a name="2.0.0"></a>
-
-## [2.0.0](https://github.com/stormwarning/zazen-eslint-config/compare/v1.0.0...v2.0.0) — 2020-01-21
-
-#### Changed
-
-- 📦 Downgrade `semantic-release` to previous major [[`7dc7a38`](https://github.com/stormwarning/zazen-eslint-config/commit/7dc7a38)]
-- 📦 Upgrade dependencies ([#115](https://github.com/stormwarning/zazen-eslint-config/issues/115)) [[`9478461`](https://github.com/stormwarning/zazen-eslint-config/commit/9478461)]
-
-
-### BREAKING CHANGES
+#### 💣 Breaking Change
 
 - Drops `prettier-eslint-cli` in favour of running Prettier as an
 eslint rule.
 
-<a name="1.0.0"></a>
+#### ♻️ Changed
 
-## [1.0.0](https://github.com/stormwarning/zazen-eslint-config/compare/v0.3.0...v1.0.0) — 2019-01-23
+- Downgrade `semantic-release` to previous major [[`7dc7a38`](https://github.com/stormwarning/zazen-eslint-config/commit/7dc7a38)]
+- Upgrade dependencies ([#115](https://github.com/stormwarning/zazen-eslint-config/issues/115))
 
-### Added
+## 1.0.0 — 2019-01-23
 
-- 🎁 Add Prettier configs for Standard & Vue ([#9](https://github.com/stormwarning/zazen-eslint-config/issues/9)) ([a31adb8](https://github.com/stormwarning/zazen-eslint-config/commit/a31adb8))
+#### 🎁 Added
 
-### Other updates
+- Add Prettier configs for Standard & Vue ([#9](https://github.com/stormwarning/zazen-eslint-config/issues/9))
 
-- 📄 Add license ([4a18a78](https://github.com/stormwarning/zazen-eslint-config/commit/4a18a78))
+#### Other updates
 
-
-
-- 🚚 Change Vue plugin to an optional dependency ([#7](https://github.com/stormwarning/zazen-eslint-config/issues/7)) ([fb3d780](https://github.com/stormwarning/zazen-eslint-config/commit/fb3d780))
+- Add license ([4a18a78](https://github.com/stormwarning/zazen-eslint-config/commit/4a18a78))
+- Change Vue plugin to an optional dependency ([#7](https://github.com/stormwarning/zazen-eslint-config/issues/7))
 
 ## 0.3.0 — 2018-09-09
 
-### Changed
+#### ♻️ Changed
 
 - Upgraded Standard config and associated plugins to latest major version
 
-## 0.2.1 — 2018-09-08
+### 0.2.1 — 2018-09-08
 
-### Fixed
+#### 🐛 Fixed
 
 - Add Vuejs plugin as dependency instead of devDependency
 
 ## 0.2.0 — 2018-04-17
 
-### Added
+#### 🎁 Added
 
 - Add optional rules for Vuejs projects
 
-## 0.1.1 — 2018-02-19
+### 0.1.1 — 2018-02-19
 
-### Fixed
+#### 🐛 Fixed
 
 - Include missing `import` plugin for rules that reference it
 

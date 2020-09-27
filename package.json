@@ -7,9 +7,10 @@
   "repository": "stormwarning/zazen-eslint-config",
   "version": "2.0.0",
   "scripts": {
+    "changeset": "changeset add",
     "eslint-check": "eslint --print-config . | eslint-config-prettier-check",
     "lint": "eslint '**/*.js'",
-    "semantic-release": "semantic-release",
+    "release": "changeset publish",
     "test": "npm run lint"
   },
   "optionalDependencies": {
@@ -30,12 +31,13 @@
     "prettier": ">=1.18"
   },
   "devDependencies": {
-    "@zazen/semantic-release": "0.1.x",
+    "@changesets/changelog-github": "0.2.7",
+    "@changesets/cli": "2.10.x",
     "eslint": "6.8.x",
     "husky": "4.0.x",
     "lint-staged": "10.0.x",
     "prettier": "1.19.x",
-    "semantic-release": "15.14.x"
+    "prettier-plugin-packagejson": "2.1.x"
   },
   "keywords": [
     "eslint-config",
@@ -59,7 +61,16 @@
     "tabWidth": 4,
     "trailingComma": "all"
   },
-  "release": {
-    "extends": "@zazen/semantic-release"
+  "changelog": {
+    "repo": "stormwarning/zazen-eslint-config",
+    "labels": {
+      "breaking": "💣 Breaking Change",
+      "removed": "🗑️ Removed",
+      "deprecated": "🚚 Deprecated",
+      "changed": "♻️ Changed",
+      "added": "🎁 Added",
+      "fixed": "🐛 Fixed",
+      "security": "🔒 Security"
+    }
   }
 }
