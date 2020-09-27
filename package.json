@@ -35,7 +35,7 @@
     "@changesets/cli": "2.10.x",
     "eslint": "6.8.x",
     "husky": "4.0.x",
-    "lint-staged": "10.0.x",
+    "lint-staged": "10.4.x",
     "prettier": "1.19.x",
     "prettier-plugin-packagejson": "2.1.x"
   },
