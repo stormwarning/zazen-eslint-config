@@ -1,10 +1,10 @@
 # Change Log
 
-## 2.1.0
+## 2.1.0 — 2020-09-27
 
-### Minor Changes
+#### 🎁 Added
 
--   [`b54b70b`](https://github.com/stormwarning/zazen-eslint-config/commit/b54b70b8ece9d1fd8dcd17471779aa7772a34796) [#162](https://github.com/stormwarning/zazen-eslint-config/pull/162) Thanks [@stormwarning](https://github.com/stormwarning)! - Add `prefer-let` rule (and disable `prefer-const`)
+-   Add `prefer-let` rule (and disable `prefer-const`) [#162](https://github.com/stormwarning/zazen-eslint-config/pull/162)
 
 ## 2.0.0 — 2020-01-21
 
