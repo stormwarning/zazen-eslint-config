@@ -3,7 +3,5 @@
  */
 module.exports = {
     extends: ['prettier', 'prettier/standard'],
-    rules: {
-        // 'no-multiple-empty-lines': ['error', { max: 2, maxEOF: 1 }],
-    },
+    rules: {},
 }
