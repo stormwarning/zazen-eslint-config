@@ -14,7 +14,7 @@
         "test": "npm run lint"
     },
     "optionalDependencies": {
-        "eslint-plugin-vue": "6.2.x"
+        "eslint-plugin-vue": "7.0.x"
     },
     "dependencies": {
         "babel-eslint": "10.1.0",
