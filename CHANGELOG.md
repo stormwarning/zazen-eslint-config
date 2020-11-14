@@ -1,10 +1,10 @@
 # Change Log
 
-## 2.1.1
+### 2.1.1 — 2020-11-13
 
-### Patch Changes
+#### 🐛 Fixed
 
--   [`a0cba90`](https://github.com/stormwarning/zazen-eslint-config/commit/a0cba90e6f738eb94cfc4471210cfb5057ab672e) [#170](https://github.com/stormwarning/zazen-eslint-config/pull/170) Thanks [@stormwarning](https://github.com/stormwarning)! - Ensure Prettier runs as an ESLint plugin
+-   Ensure Prettier runs as an ESLint plugin [#170](https://github.com/stormwarning/zazen-eslint-config/pull/170)
 
 ## 2.1.0 — 2020-09-27
 
