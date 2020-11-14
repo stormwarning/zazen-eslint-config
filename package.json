@@ -5,7 +5,7 @@
     "author": "Jeff <rustyangel@gmail.com> (https://tidaltheory.co)",
     "homepage": "https://github.com/stormwarning/zazen-eslint-config",
     "repository": "stormwarning/zazen-eslint-config",
-    "version": "2.1.0",
+    "version": "2.1.1",
     "scripts": {
         "changeset": "changeset add",
         "eslint-check": "eslint --print-config . | eslint-config-prettier-check",
