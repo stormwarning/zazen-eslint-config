@@ -1,14 +1,14 @@
 # Change Log
 
-## 2.2.0
+## 2.2.0 — 2021-02-22
 
-### Minor Changes
+#### ♻️ Changed
 
-- [`46ffd69`](https://github.com/stormwarning/zazen-eslint-config/commit/46ffd69b890c9a47b32f6d647ce8e35688b17ba4) [#193](https://github.com/stormwarning/zazen-eslint-config/pull/193) Thanks [@stormwarning](https://github.com/stormwarning)! - Add TypeScript config
+- Use a single file for general config [#181](https://github.com/stormwarning/zazen-eslint-config/pull/181)
 
-### Patch Changes
+#### 🎁 Added
 
-- [`b214222`](https://github.com/stormwarning/zazen-eslint-config/commit/b2142223deeb4840d17a5a35252d53c4429a42a6) [#181](https://github.com/stormwarning/zazen-eslint-config/pull/181) Thanks [@stormwarning](https://github.com/stormwarning)! - Use a single file for general config
+- Add TypeScript config [#193](https://github.com/stormwarning/zazen-eslint-config/pull/193)
 
 ### 2.1.1 — 2020-11-13
 
