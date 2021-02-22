@@ -39,22 +39,22 @@
   },
   "dependencies": {
     "babel-eslint": "10.1.0",
-    "eslint-config-prettier": "6.12.0",
-    "eslint-config-standard": "14.1.1",
+    "eslint-config-prettier": "8.0.0",
+    "eslint-config-standard": "16.0.2",
     "eslint-plugin-import": "2.22.1",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-prefer-let": "1.1.0",
-    "eslint-plugin-prettier": "3.1.4",
-    "eslint-plugin-promise": "4.2.1",
-    "eslint-plugin-standard": "4.0.1"
+    "eslint-plugin-prettier": "3.3.1",
+    "eslint-plugin-promise": "4.3.1",
+    "eslint-plugin-standard": "5.0.0"
   },
   "devDependencies": {
-    "@changesets/changelog-github": "0.2.7",
-    "@changesets/cli": "2.11.x",
-    "eslint": "7.13.x",
+    "@changesets/changelog-github": "0.2.8",
+    "@changesets/cli": "2.14.x",
+    "eslint": "7.20.x",
     "husky": "4.3.x",
     "lint-staged": "10.5.x",
-    "prettier": "2.1.x",
+    "prettier": "2.2.x",
     "prettier-plugin-packagejson": "2.2.x"
   },
   "peerDependencies": {
@@ -62,7 +62,7 @@
     "prettier": ">=1.18"
   },
   "optionalDependencies": {
-    "eslint-plugin-vue": "7.1.x"
+    "eslint-plugin-vue": "7.6.x"
   },
   "changelog": {
     "repo": "stormwarning/zazen-eslint-config",
