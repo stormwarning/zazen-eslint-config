@@ -17,8 +17,8 @@ Add the extends to your `.eslintrc.js`:
 
 ```js
 {
-    extends: ['@zazen/eslint-config'],
-    rules: { /* … */ }
+    extends: ['@zazen'],
+    rules: { /* … */ },
 }
 ```
 
@@ -26,10 +26,9 @@ Add the Prettier settings to your `package.json`:
 
 ```json
 "prettier": {
-    "arrowParens": "always",
     "semi": false,
     "singleQuote": true,
-    "tabWidth": 4
+    "trailingComma": "all"
 },
 ```
 
@@ -45,8 +44,42 @@ Extend the Vue-specific settings in `.eslintrc.js`:
 
 ```js
 {
-    extends: ['@zazen/eslint-config', '@zazen/eslint-config/vue'],
-    rules: { /* … */ }
+    extends: ['@zazen', '@zazen/eslint-config/vue'],
+    rules: { /* … */ },
+}
+```
+
+### TypeScript projects
+
+Install optionalDependencies:
+
+```shell
+npm install --save-dev @typescript-eslint/eslint-plugin eslint-config-standard-with-typescript
+```
+
+Extend TypeScript-specific settings in `.eslintrc.js`:
+
+```js
+{
+    extends: ['@zazen', '@zazen/eslint-config/typescript'],
+    rules: { /* … */ },
+}
+```
+
+### Vue.js + TypeScript
+
+Requires some specific parser settings to ensure everything works. See the [Vue.js ESLint TypeScript config](https://github.com/vuejs/eslint-config-typescript) for more details.
+
+```js
+{
+    parser: require.resolve('vue-eslint-parser'),
+    parserOptions: {
+        parser: require.resolve('@typescript-eslint/parser'),
+        extraFileExtensions: ['.vue'],
+        ecmaFeatures: {
+            jsx: true,
+        },
+    },
 }
 ```
 
