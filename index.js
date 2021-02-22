@@ -1,17 +1,23 @@
 module.exports = {
     parser: 'babel-eslint',
     parserOptions: {
-        ecmaVersion: 2020,
+        ecmaVersion: 2021,
         sourceType: 'module',
     },
     env: {
         browser: true,
-        es6: true,
+        es2021: true,
         node: true,
     },
     plugins: ['prefer-let'],
-    extends: ['standard', './code-style.js', './best-practices.js'],
+    /**
+     * @see https://github.com/standard/eslint-config-standard
+     * @see https://github.com/prettier/eslint-plugin-prettier
+     */
+    extends: ['standard', 'plugin:prettier/recommended'],
     rules: {
+        'no-console': 'warn',
+
         /**
          * @see https://github.com/cowboyd/eslint-plugin-prefer-let
          */

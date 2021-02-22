@@ -1,81 +1,79 @@
 {
-    "name": "@zazen/eslint-config",
-    "description": "Lint JavaScript, free of weariness and confusion",
-    "license": "ISC",
-    "author": "Jeff <rustyangel@gmail.com> (https://tidaltheory.co)",
-    "homepage": "https://github.com/stormwarning/zazen-eslint-config",
-    "repository": "stormwarning/zazen-eslint-config",
-    "version": "2.1.1",
-    "scripts": {
-        "changeset": "changeset add",
-        "eslint-check": "eslint --print-config . | eslint-config-prettier-check",
-        "lint": "eslint '**/*.js'",
-        "release": "changeset publish",
-        "test": "npm run lint"
-    },
-    "optionalDependencies": {
-        "eslint-plugin-vue": "7.6.x"
-    },
-    "dependencies": {
-        "babel-eslint": "10.1.0",
-        "eslint-config-prettier": "8.0.0",
-        "eslint-config-standard": "16.0.2",
-        "eslint-plugin-import": "2.22.1",
-        "eslint-plugin-node": "11.1.0",
-        "eslint-plugin-prefer-let": "1.1.0",
-        "eslint-plugin-prettier": "3.3.1",
-        "eslint-plugin-promise": "4.3.1",
-        "eslint-plugin-standard": "5.0.0"
-    },
-    "peerDependencies": {
-        "eslint": ">=6",
-        "prettier": ">=1.18"
-    },
-    "devDependencies": {
-        "@changesets/changelog-github": "0.2.8",
-        "@changesets/cli": "2.14.x",
-        "eslint": "7.20.x",
-        "husky": "4.3.x",
-        "lint-staged": "10.5.x",
-        "prettier": "2.2.x",
-        "prettier-plugin-packagejson": "2.2.x"
-    },
-    "keywords": [
-        "eslint-config",
-        "standard style"
-    ],
-    "husky": {
-        "hooks": {
-            "pre-commit": "lint-staged"
-        }
-    },
-    "lint-staged": {
-        "*.js": [
-            "eslint --fix",
-            "git add"
-        ],
-        "package.json": [
-            "prettier --write",
-            "git add"
-        ]
-    },
-    "prettier": {
-        "arrowParens": "always",
-        "semi": false,
-        "singleQuote": true,
-        "tabWidth": 4,
-        "trailingComma": "all"
-    },
-    "changelog": {
-        "repo": "stormwarning/zazen-eslint-config",
-        "labels": {
-            "breaking": "💣 Breaking Change",
-            "removed": "🗑️ Removed",
-            "deprecated": "🚚 Deprecated",
-            "changed": "♻️ Changed",
-            "added": "🎁 Added",
-            "fixed": "🐛 Fixed",
-            "security": "🔒 Security"
-        }
+  "name": "@zazen/eslint-config",
+  "version": "2.1.1",
+  "description": "Lint JavaScript, free of weariness and confusion",
+  "keywords": [
+    "eslint-config",
+    "standard style"
+  ],
+  "homepage": "https://github.com/stormwarning/zazen-eslint-config",
+  "repository": "stormwarning/zazen-eslint-config",
+  "license": "ISC",
+  "author": "Jeff <rustyangel@gmail.com> (https://tidaltheory.co)",
+  "scripts": {
+    "changeset": "changeset add",
+    "eslint-check": "eslint --print-config . | eslint-config-prettier-check",
+    "lint": "eslint '**/*.js'",
+    "release": "changeset publish",
+    "test": "npm run lint"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ],
+    "package.json": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "dependencies": {
+    "babel-eslint": "10.1.0",
+    "eslint-config-prettier": "8.0.0",
+    "eslint-config-standard": "16.0.2",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-prefer-let": "1.1.0",
+    "eslint-plugin-prettier": "3.3.1",
+    "eslint-plugin-promise": "4.3.1",
+    "eslint-plugin-standard": "5.0.0"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "0.2.8",
+    "@changesets/cli": "2.14.x",
+    "eslint": "7.20.x",
+    "husky": "4.3.x",
+    "lint-staged": "10.5.x",
+    "prettier": "2.2.x",
+    "prettier-plugin-packagejson": "2.2.x"
+  },
+  "peerDependencies": {
+    "eslint": ">=6",
+    "prettier": ">=1.18"
+  },
+  "optionalDependencies": {
+    "eslint-plugin-vue": "7.6.x"
+  },
+  "changelog": {
+    "repo": "stormwarning/zazen-eslint-config",
+    "labels": {
+      "breaking": "💣 Breaking Change",
+      "removed": "🗑️ Removed",
+      "deprecated": "🚚 Deprecated",
+      "changed": "♻️ Changed",
+      "added": "🎁 Added",
+      "fixed": "🐛 Fixed",
+      "security": "🔒 Security"
+    }
+  }
 }
