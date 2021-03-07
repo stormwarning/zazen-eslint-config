@@ -32,54 +32,37 @@ Add the Prettier settings to your `package.json`:
 },
 ```
 
-### Vue.js projects
-
-Install the optionalDependency `eslint-plugin-vue`:
-
-```shell
-npm install --save-dev eslint-plugin-vue
-```
-
-Extend the Vue-specific settings in `.eslintrc.js`:
-
-```js
-{
-    extends: ['@zazen', '@zazen/eslint-config/vue'],
-    rules: { /* … */ },
-}
-```
-
 ### TypeScript projects
 
 Install optionalDependencies:
 
 ```shell
-npm install --save-dev @typescript-eslint/eslint-plugin eslint-config-standard-with-typescript
+npm install --save-dev @typescript-eslint/{eslint-plugin,parser} eslint-config-standard-with-typescript
 ```
 
 Extend TypeScript-specific settings in `.eslintrc.js`:
 
 ```js
 {
-    extends: ['@zazen', '@zazen/eslint-config/typescript'],
+    extends: ['@zazen/eslint-config/typescript'],
     rules: { /* … */ },
 }
 ```
 
-### Vue.js + TypeScript
+### Vue.js projects
 
-Requires some specific parser settings to ensure everything works. See the [Vue.js ESLint TypeScript config](https://github.com/vuejs/eslint-config-typescript) for more details.
+Includes TypeScript rules as well. Install the optionalDependencies:
+
+```shell
+npm install --save-dev @typescript-eslint/{eslint-plugin,parser} eslint-config-standard-with-typescript eslint-plugin-vue
+```
+
+Extend the Vue-specific settings in `.eslintrc.js`:
 
 ```js
 {
-    parser: require.resolve('vue-eslint-parser'),
-    parserOptions: {
-        parser: require.resolve('@typescript-eslint/parser'),
-        extraFileExtensions: ['.vue'],
-        ecmaFeatures: {
-            jsx: true,
-        },
-    },
+    extends: ['@zazen/eslint-config/vue'],
+    rules: { /* … */ },
 }
 ```
 
