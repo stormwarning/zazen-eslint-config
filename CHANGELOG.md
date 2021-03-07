@@ -1,5 +1,11 @@
 # Change Log
 
+## 2.3.0
+
+### Minor Changes
+
+- [`0cac2ce`](https://github.com/stormwarning/zazen-eslint-config/commit/0cac2ce868051871d398de5105355a7d3d40e29f) [#200](https://github.com/stormwarning/zazen-eslint-config/pull/200) Thanks [@stormwarning](https://github.com/stormwarning)! - Make project type configs standalone
+
 ## 2.2.0 — 2021-02-22
 
 #### ♻️ Changed
