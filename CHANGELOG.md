@@ -1,5 +1,11 @@
 # Change Log
 
+## 2.3.0 — 2021-03-06
+
+#### ♻️ Changed
+
+- Make project type configs standalone [#200](https://github.com/stormwarning/zazen-eslint-config/pull/200)
+
 ## 2.2.0 — 2021-02-22
 
 #### ♻️ Changed
