@@ -9,7 +9,7 @@
   "homepage": "https://github.com/stormwarning/zazen-eslint-config",
   "repository": "stormwarning/zazen-eslint-config",
   "license": "ISC",
-  "author": "Jeff (https://tidaltheory.co)",
+  "author": "Jeff (https://tidaltheory.io)",
   "scripts": {
     "changeset": "changeset add",
     "eslint-check": "eslint --print-config . | eslint-config-prettier-check",
@@ -36,7 +36,6 @@
     "trailingComma": "all"
   },
   "dependencies": {
-    "babel-eslint": "10.1.0",
     "eslint-config-prettier": "8.1.0",
     "eslint-config-standard": "16.0.2",
     "eslint-plugin-import": "2.22.1",
@@ -61,6 +60,7 @@
   },
   "optionalDependencies": {
     "@typescript-eslint/eslint-plugin": "4.15.x",
+    "@typescript-eslint/parser": "4.16.x",
     "eslint-config-standard-with-typescript": "20.0.x",
     "eslint-plugin-vue": "7.6.x"
   },
