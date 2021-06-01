@@ -62,7 +62,7 @@
     "@typescript-eslint/eslint-plugin": "4.16.x",
     "@typescript-eslint/parser": "4.16.x",
     "eslint-config-standard-with-typescript": "20.0.x",
-    "eslint-plugin-vue": "7.7.x"
+    "eslint-plugin-vue": "7.10.x"
   },
   "changelog": {
     "repo": "stormwarning/zazen-eslint-config",
