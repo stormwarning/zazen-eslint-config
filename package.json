@@ -46,7 +46,7 @@
     "eslint-plugin-standard": "5.0.0"
   },
   "devDependencies": {
-    "@changesets/changelog-github": "0.2.8",
+    "@changesets/changelog-github": "0.4.0",
     "@changesets/cli": "2.14.x",
     "eslint": "7.21.x",
     "husky": "4.3.x",
