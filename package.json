@@ -14,21 +14,13 @@
     "changeset": "changeset add",
     "eslint-check": "eslint --print-config . | eslint-config-prettier-check",
     "lint": "eslint '**/*.js'",
+    "prepare": "husky install",
     "release": "changeset publish",
     "test": "npm run lint"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
-    "*.js": [
-      "eslint --fix"
-    ],
-    "package.json": [
-      "prettier --write"
-    ]
+    "*.js": "eslint --fix",
+    "package.json": "prettier --write"
   },
   "prettier": {
     "semi": false,
@@ -36,33 +28,27 @@
     "trailingComma": "all"
   },
   "dependencies": {
-    "eslint-config-prettier": "8.1.0",
-    "eslint-config-standard": "16.0.2",
-    "eslint-plugin-import": "2.22.1",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-config-standard": "17.0.0-0",
+    "eslint-plugin-import": "2.25.4",
     "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-prefer-let": "1.1.0",
-    "eslint-plugin-prettier": "3.3.1",
-    "eslint-plugin-promise": "4.3.1",
+    "eslint-plugin-prefer-let": "3.0.1",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-promise": "6.0.0",
     "eslint-plugin-standard": "5.0.0"
   },
   "devDependencies": {
-    "@changesets/changelog-github": "0.4.0",
-    "@changesets/cli": "2.14.x",
-    "eslint": "7.27.x",
-    "husky": "4.3.x",
-    "lint-staged": "10.5.x",
-    "prettier": "2.2.x",
-    "prettier-plugin-packagejson": "2.2.x"
+    "@changesets/changelog-github": "0.4.2",
+    "@changesets/cli": "2.20.0",
+    "eslint": "8.7.0",
+    "husky": "7.0.4",
+    "lint-staged": "12.3.1",
+    "prettier": "2.5.1",
+    "prettier-plugin-packagejson": "2.2.15"
   },
   "peerDependencies": {
     "eslint": ">=6",
     "prettier": ">=1.18"
-  },
-  "optionalDependencies": {
-    "@typescript-eslint/eslint-plugin": "4.16.x",
-    "@typescript-eslint/parser": "4.16.x",
-    "eslint-config-standard-with-typescript": "20.0.x",
-    "eslint-plugin-vue": "7.10.x"
   },
   "changelog": {
     "repo": "stormwarning/zazen-eslint-config",
