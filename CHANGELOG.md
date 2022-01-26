@@ -1,10 +1,10 @@
 # Change Log
 
-## 3.0.0
+## 3.0.0 — 2022-01-26
 
-### Major Changes
+#### ♻️ Changed
 
-- [#230](https://github.com/stormwarning/zazen-eslint-config/pull/230) [`b34415f`](https://github.com/stormwarning/zazen-eslint-config/commit/b34415f6b2b2d9e0a9429be5ca3bfef60c81d29a) Thanks [@stormwarning](https://github.com/stormwarning)! - Upgrade plugin dependencies to their latest version
+- Upgrade plugin dependencies to their latest version [#230](https://github.com/stormwarning/zazen-eslint-config/pull/230)
 
 ## 2.3.0 — 2021-03-06
 
