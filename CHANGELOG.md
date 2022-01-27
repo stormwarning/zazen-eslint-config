@@ -1,12 +1,12 @@
 # Change Log
 
-## 3.0.1
+### 3.0.1 — 2022-01-26
 
-### Patch Changes
+#### 🗑️ Removed
 
-- [#232](https://github.com/stormwarning/zazen-eslint-config/pull/232) [`6a8f732`](https://github.com/stormwarning/zazen-eslint-config/commit/6a8f732eb97fc8705c7a7aa2bc34cd58482c91b1) Thanks [@stormwarning](https://github.com/stormwarning)! - Remove deprecated `standard` plugin
+- Remove deprecated `standard` plugin [#232](https://github.com/stormwarning/zazen-eslint-config/pull/232)
 
-  As per standard/standard#1316.
+  As per [standard/standard#1316](https://github.com/standard/standard/issues/1316).
 
 ## 3.0.0 — 2022-01-26
 
