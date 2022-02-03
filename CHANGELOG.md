@@ -1,10 +1,10 @@
 # Change Log
 
-## 4.0.0
+## 4.0.0 — 2022-02-02
 
-### Major Changes
+#### 💣 Breaking Change
 
-- [#237](https://github.com/stormwarning/zazen-eslint-config/pull/237) [`da35a70`](https://github.com/stormwarning/zazen-eslint-config/commit/da35a70c5a388606fa1cf0f4cdfa36241bf4bd47) Thanks [@stormwarning](https://github.com/stormwarning)! - Include TypeScript rules in default config
+- Include TypeScript rules in default config [#237](https://github.com/stormwarning/zazen-eslint-config/pull/237)
 
   Also rolls `eslint-config-standard` back to the latest stable version, which
   required a rollback of `eslint-plugin-node` and `eslint-plugin-promise` in order
