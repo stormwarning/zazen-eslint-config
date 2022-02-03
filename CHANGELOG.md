@@ -1,5 +1,15 @@
 # Change Log
 
+## 4.0.0 — 2022-02-02
+
+#### 💣 Breaking Change
+
+- Include TypeScript rules in default config [#237](https://github.com/stormwarning/zazen-eslint-config/pull/237)
+
+  Also rolls `eslint-config-standard` back to the latest stable version, which
+  required a rollback of `eslint-plugin-node` and `eslint-plugin-promise` in order
+  for all the peerDependencies to be copacetic.
+
 ### 3.0.1 — 2022-01-26
 
 #### 🗑️ Removed
