@@ -28,26 +28,29 @@
     "trailingComma": "all"
   },
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "4.33.0",
+    "@typescript-eslint/parser": "4.33.0",
     "eslint-config-prettier": "8.3.0",
-    "eslint-config-standard": "17.0.0-0",
+    "eslint-config-standard": "16.0.3",
+    "eslint-config-standard-with-typescript": "21.0.1",
     "eslint-plugin-import": "2.25.4",
-    "eslint-plugin-n": "14.0.0",
+    "eslint-plugin-node": "11.1.0",
     "eslint-plugin-prefer-let": "3.0.1",
     "eslint-plugin-prettier": "4.0.0",
-    "eslint-plugin-promise": "6.0.0"
+    "eslint-plugin-promise": "5.2.0"
   },
   "devDependencies": {
     "@changesets/changelog-github": "0.4.2",
     "@changesets/cli": "2.20.0",
-    "eslint": "8.7.0",
+    "eslint": "7.32.0",
     "husky": "7.0.4",
     "lint-staged": "12.3.1",
     "prettier": "2.5.1",
     "prettier-plugin-packagejson": "2.2.15"
   },
   "peerDependencies": {
-    "eslint": ">=6",
-    "prettier": ">=1.18"
+    "eslint": ">=7.28",
+    "prettier": ">=2"
   },
   "changelog": {
     "repo": "stormwarning/zazen-eslint-config",
