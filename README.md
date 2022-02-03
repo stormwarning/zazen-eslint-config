@@ -32,23 +32,6 @@ Add the Prettier settings to your `package.json`:
 },
 ```
 
-### TypeScript projects
-
-Install optionalDependencies:
-
-```shell
-npm install --save-dev @typescript-eslint/{eslint-plugin,parser} eslint-config-standard-with-typescript
-```
-
-Extend TypeScript-specific settings in `.eslintrc.js`:
-
-```js
-{
-    extends: ['@zazen/eslint-config/typescript'],
-    rules: { /* … */ },
-}
-```
-
 ### Vue.js projects
 
 Includes TypeScript rules as well. Install the optionalDependencies:
@@ -67,15 +50,9 @@ Extend the Vue-specific settings in `.eslintrc.js`:
 ```
 
 [npm-url]: https://www.npmjs.com/package/@zazen/eslint-config
-
 [npm-img]: https://img.shields.io/npm/v/@zazen/eslint-config.svg?style=flat-square
-
 [npm-dls]: https://img.shields.io/npm/dt/@zazen/eslint-config.svg?style=flat-square
-
 [issues-url]: https://github.com/stormwarning/zazen-eslint-config/issues
-
 [issues-img]: https://img.shields.io/github/issues/stormwarning/zazen-eslint-config.svg?style=flat-square
-
 [eslint]: https://eslint.org
-
 [zazen]: https://github.com/stormwarning/zazen
