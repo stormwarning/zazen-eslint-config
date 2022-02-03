@@ -1,3 +1,5 @@
+'use strict'
+
 module.exports = {
     root: true,
     parserOptions: {
@@ -6,16 +8,23 @@ module.exports = {
         sourceType: 'module',
     },
     env: {
-        browser: true,
         es2021: true,
-        node: true,
     },
     plugins: ['prefer-let'],
     /**
-     * @see https://github.com/standard/eslint-config-standard
+     * @see https://github.com/xojs/eslint-config-xo
+     * @see https://github.com/sindresorhus/eslint-plugin-unicorn
+     * @see https://github.com/import-js/eslint-plugin-import
+     * @see https://github.com/xjamundx/eslint-plugin-promise
      * @see https://github.com/prettier/eslint-plugin-prettier
      */
-    extends: ['standard', 'plugin:prettier/recommended'],
+    extends: [
+        'xo',
+        'plugin:unicorn/recommended',
+        'plugin:import/recommended',
+        'plugin:promise/recommended',
+        'plugin:prettier/recommended',
+    ],
     rules: {
         'no-console': 'warn',
 
@@ -29,19 +38,17 @@ module.exports = {
         {
             files: ['**/*.ts', '**/*.tsx'],
             parser: '@typescript-eslint/parser',
+            /**
+             * @see https://github.com/xojs/eslint-config-xo-typescript
+             * @see https://github.com/cartant/eslint-plugin-etc
+             */
             extends: [
-                'standard-with-typescript',
+                'xo-typescript',
+                'plugin:etc/recommended',
                 'plugin:prettier/recommended',
             ],
             rules: {
-                /**
-                 * @see https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/no-unused-vars.md
-                 */
-                'no-unused-vars': 'off',
-                '@typescript-eslint/no-unused-vars': [
-                    'error',
-                    { argsIgnorePattern: '^_', ignoreRestSiblings: true },
-                ],
+                'etc/prefer-less-than': 'error',
             },
         },
     ],
