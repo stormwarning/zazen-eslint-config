@@ -32,22 +32,46 @@ Add the Prettier settings to your `package.json`:
 },
 ```
 
-### Vue.js projects
+### Node projects
 
-Includes TypeScript rules as well. Install the optionalDependencies:
-
-```shell
-npm install --save-dev @typescript-eslint/{eslint-plugin,parser} eslint-config-standard-with-typescript eslint-plugin-vue
-```
-
-Extend the Vue-specific settings in `.eslintrc.js`:
+Extend the base config as well as the Node-specific rules:
 
 ```js
 {
-    extends: ['@zazen/eslint-config/vue'],
+    extends: ['@zazen', '@zazen/eslint-config/node'],
     rules: { /* … */ },
 }
 ```
+
+### TypeScript projects
+
+Extend the base config as well as the TypeScript-specific rules:
+
+```js
+{
+    extends: ['@zazen', '@zazen/eslint-config/typescript'],
+    rules: { /* … */ },
+}
+```
+
+This can be used for JavaScript code as well, but will require a `tsconfig.json` file to be present.
+
+### Vue.js projects
+
+Removed for now until/unless I get more opinionated about Vue code. For now, install `eslint-plugin-vue` per-project, and extend the recommended config in addition to the base config here.
+
+```js
+{
+    extends: [
+        'plugin:vue/[vue3-]recommended',
+        '@zazen',
+        'plugin:prettier/recommended',
+    ],
+    rules: { /* … */ },
+}
+```
+
+The TypeScript rules can be included as well, but remember to [set the `parser` option correctly](https://eslint.vuejs.org/user-guide/#what-is-the-use-the-latest-vue-eslint-parser-error).
 
 [npm-url]: https://www.npmjs.com/package/@zazen/eslint-config
 [npm-img]: https://img.shields.io/npm/v/@zazen/eslint-config.svg?style=flat-square
