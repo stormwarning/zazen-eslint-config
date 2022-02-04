@@ -1,6 +1,6 @@
 module.exports = {
     plugins: ['unicorn'],
-    extends: ['./index.js', './node.js'],
+    extends: ['./index.js'],
     parserOptions: {
         sourceType: 'module',
     },
