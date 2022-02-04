@@ -5,7 +5,7 @@ module.exports = {
     /**
      * @see https://github.com/weiran-zsd/eslint-plugin-node
      */
-    extends: ['plugin:n/recommended', 'plugin:prettier/recommended'],
+    extends: ['plugin:prettier/recommended'],
     rules: {
         /**
          * We have this enabled in addition to `import/extensions` as

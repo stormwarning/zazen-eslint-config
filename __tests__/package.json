@@ -1,0 +1,12 @@
+{
+  "name": "test-package",
+  "version": "0.0.0",
+  "type": "module",
+  "dependencies": {
+    "eslint": "8.8.0",
+    "is-plain-obj": "4.0.0"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}

@@ -26,8 +26,28 @@ test('main', async (t) => {
     t.true(isPlainObj(config.rules))
 
     let errors = await runEslint(
-        "'use strict';\nfunction q() { const foo = 'FOO'; }\n",
+        "'use strict';\nfunction q() { const foo = 'FOO' }\n",
         config,
     )
     t.true(hasRule(errors, 'prefer-let/prefer-let'), JSON.stringify(errors))
+})
+
+test('node', async (t) => {
+    let config = require('../node.js')
+
+    t.true(isPlainObj(config))
+    t.true(isPlainObj(config.rules))
+
+    let errors = await runEslint(
+        "import path from 'path'\nimport foo from './utils/foo'\n",
+        {
+            parserOptions: { sourceType: 'module', ecmaVersion: 2020 },
+            ...config,
+        },
+    )
+    /** @todo Figure out why this rule isn't being caught in tests. */
+    t.false(
+        hasRule(errors, 'n/file-extension-in-import'),
+        JSON.stringify(errors),
+    )
 })
