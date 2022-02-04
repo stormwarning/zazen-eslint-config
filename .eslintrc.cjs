@@ -9,6 +9,5 @@ module.exports = {
     },
     rules: {
         'unicorn/prefer-module': 'off',
-        'n/no-unsupported-features/es-syntax': 'off',
     },
 }

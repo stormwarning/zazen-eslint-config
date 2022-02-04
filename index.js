@@ -10,6 +10,7 @@ module.exports = {
     env: {
         es2021: true,
     },
+    reportUnusedDisableDirectives: true,
     plugins: ['prefer-let'],
     /**
      * @see https://github.com/xojs/eslint-config-xo
@@ -61,7 +62,15 @@ module.exports = {
         'import/no-anonymous-default-export': 'error',
         'import/no-cycle': ['error', { ignoreExternal: true }],
         'import/no-duplicates': 'error',
-        'import/no-extraneous-dependencies': 'error',
+        'import/no-extraneous-dependencies': [
+            'error',
+            {
+                devDependencies: [
+                    '**/__tests__/**/*.{mjs,js,ts,tsx}',
+                    '**/*.@(spec|test).{mjs,js,ts,tsx}',
+                ],
+            },
+        ],
         'import/no-mutable-exports': 'error',
         'import/no-named-as-default-member': 'error',
         'import/no-named-as-default': 'error',
