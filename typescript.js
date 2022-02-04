@@ -1,19 +1,18 @@
-/**
- * TypeScript project rules
- * @see https://github.com/standard/eslint-config-standard-with-typescript
- * @see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/parser/README.md#parseroptionsproject
- */
+'use strict'
+
 module.exports = {
-    extends: ['standard-with-typescript', './', 'plugin:prettier/recommended'],
-    parserOptions: {
-        project: './tsconfig.json',
-    },
+    /**
+     * @see https://github.com/xojs/eslint-config-xo-typescript
+     * @see https://github.com/cartant/eslint-plugin-etc
+     */
+    extends: [
+        'xo-typescript',
+        'plugin:etc/recommended',
+        'plugin:prettier/recommended',
+    ],
     rules: {
-        // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unused-vars.md
-        'no-unused-vars': 'off',
-        '@typescript-eslint/no-unused-vars': [
-            'error',
-            { argsIgnorePattern: '^_', ignoreRestSiblings: true },
-        ],
+        'import/named': 'off',
+
+        'etc/prefer-less-than': 'error',
     },
 }

@@ -70,24 +70,4 @@ module.exports = {
         'import/no-useless-path-segments': 'error',
         'import/no-webpack-loader-syntax': 'error',
     },
-    overrides: [
-        {
-            files: ['**/*.ts', '**/*.tsx'],
-            parser: '@typescript-eslint/parser',
-            /**
-             * @see https://github.com/xojs/eslint-config-xo-typescript
-             * @see https://github.com/cartant/eslint-plugin-etc
-             */
-            extends: [
-                'xo-typescript',
-                'plugin:etc/recommended',
-                'plugin:prettier/recommended',
-            ],
-            rules: {
-                'import/named': 'off',
-
-                'etc/prefer-less-than': 'error',
-            },
-        },
-    ],
 }
