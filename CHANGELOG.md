@@ -1,10 +1,10 @@
 # Change Log
 
-## 5.0.0
+## 5.0.0 — 2022-02-04
 
-### Major Changes
+#### 💣 Breaking Change
 
-- [#240](https://github.com/stormwarning/zazen-eslint-config/pull/240) [`413dff9`](https://github.com/stormwarning/zazen-eslint-config/commit/413dff92990862d0ea1987bd5985f51110b428c5) Thanks [@stormwarning](https://github.com/stormwarning)! - Use XO instead of Standard as a baseline
+- Use XO instead of Standard as a baseline [#240](https://github.com/stormwarning/zazen-eslint-config/pull/240)
 
   Extends `eslint-config-xo` (and `eslint-config-xo-typescript`) rules, as well as the config for `import`, `promise`, and `node` plugins from the XO CLI.
 
