@@ -67,6 +67,7 @@ module.exports = {
         'import/no-named-as-default': 'error',
         'import/no-named-default': 'error',
         'import/no-self-import': 'error',
+        'import/no-unresolved': 'off',
         'import/no-useless-path-segments': 'error',
         'import/no-webpack-loader-syntax': 'error',
     },
