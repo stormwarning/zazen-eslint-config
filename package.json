@@ -17,14 +17,16 @@
   ],
   "scripts": {
     "changeset": "changeset add",
-    "eslint-check": "eslint --print-config . | eslint-config-prettier-check",
     "lint": "eslint .",
     "prepare": "husky install",
     "release": "changeset publish",
     "test": "ava"
   },
   "lint-staged": {
-    "*.{js,cjs,mjs}": "eslint --fix",
+    "*.{js,cjs,mjs}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
     "package.json": "prettier --write"
   },
   "prettier": {
@@ -42,7 +44,6 @@
     "eslint-plugin-import": "2.25.4",
     "eslint-plugin-n": "14.0.0",
     "eslint-plugin-prefer-let": "3.0.1",
-    "eslint-plugin-prettier": "4.0.0",
     "eslint-plugin-promise": "6.0.0",
     "eslint-plugin-unicorn": "40.1.0"
   },

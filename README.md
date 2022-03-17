@@ -65,7 +65,7 @@ Removed for now until/unless I get more opinionated about Vue code. For now, ins
     extends: [
         'plugin:vue/[vue3-]recommended',
         '@zazen',
-        'plugin:prettier/recommended',
+        'prettier',
     ],
     rules: { /* … */ },
 }

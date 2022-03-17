@@ -17,14 +17,14 @@ module.exports = {
      * @see https://github.com/sindresorhus/eslint-plugin-unicorn
      * @see https://github.com/import-js/eslint-plugin-import
      * @see https://github.com/xjamundx/eslint-plugin-promise
-     * @see https://github.com/prettier/eslint-plugin-prettier
+     * @see https://github.com/prettier/eslint-config-prettier
      */
     extends: [
         'xo',
         'plugin:unicorn/recommended',
         'plugin:import/recommended',
         'plugin:promise/recommended',
-        'plugin:prettier/recommended',
+        'prettier',
     ],
     rules: {
         'no-console': 'warn',
