@@ -1,5 +1,24 @@
 # Change Log
 
+## 5.1.0 — 2022-03-17
+
+#### 🗑️ Removed
+
+- Remove `eslint-plugin-prettier` from extended rulesets [#261](https://github.com/stormwarning/zazen-eslint-config/pull/261)
+
+  Per [Prettier’s integration recommendations](https://prettier.io/docs/en/integrating-with-linters.html), Prettier is run separately from
+  ESLint. Should update `lint-staged` config to include `prettier --write` for
+  appropriate files.### Minor Changes
+
+#### ♻️ Changed
+
+- Update typescript-eslint packages to v5.15.0 [#245](https://github.com/stormwarning/zazen-eslint-config/pull/245)
+- Update eslint-config-xo to v0.40.0 [#246](https://github.com/stormwarning/zazen-eslint-config/pull/246)
+- Update eslint-config-xo-typescript to v0.50.0 [#247](https://github.com/stormwarning/zazen-eslint-config/pull/247)
+- Update eslint-plugin-unicorn to v41 [#250](https://github.com/stormwarning/zazen-eslint-config/pull/250)
+- Update eslint-config-prettier to v8.5.0 [#251](https://github.com/stormwarning/zazen-eslint-config/pull/251)
+- Update eslint-plugin-n to v15 [#254](https://github.com/stormwarning/zazen-eslint-config/pull/254)
+
 ## 5.0.0 — 2022-02-04
 
 #### 💣 Breaking Change
