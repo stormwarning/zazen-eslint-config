@@ -54,7 +54,7 @@
     "eslint": "8.11.0",
     "husky": "7.0.4",
     "is-plain-obj": "4.0.0",
-    "lint-staged": "12.3.7",
+    "lint-staged": "12.4.1",
     "prettier": "2.6.0",
     "prettier-plugin-packagejson": "2.2.17"
   },
