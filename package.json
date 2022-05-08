@@ -50,7 +50,7 @@
   "devDependencies": {
     "@changesets/changelog-github": "0.4.4",
     "@changesets/cli": "2.22.0",
-    "ava": "4.1.0",
+    "ava": "4.2.0",
     "eslint": "8.11.0",
     "husky": "7.0.4",
     "is-plain-obj": "4.0.0",
