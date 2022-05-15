@@ -41,7 +41,7 @@
     "eslint-config-xo": "0.40.0",
     "eslint-config-xo-typescript": "0.50.0",
     "eslint-plugin-etc": "2.0.2",
-    "eslint-plugin-import": "2.25.4",
+    "eslint-plugin-import": "2.26.0",
     "eslint-plugin-n": "15.2.0",
     "eslint-plugin-prefer-let": "3.0.1",
     "eslint-plugin-promise": "6.0.0",
