@@ -52,7 +52,7 @@
     "@changesets/cli": "2.22.0",
     "ava": "4.2.0",
     "eslint": "8.15.0",
-    "husky": "7.0.4",
+    "husky": "8.0.1",
     "is-plain-obj": "4.0.0",
     "lint-staged": "12.4.1",
     "prettier": "2.6.2",
