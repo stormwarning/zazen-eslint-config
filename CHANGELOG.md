@@ -1,5 +1,14 @@
 # Change Log
 
+## 5.2.0 — 2022-05-15
+
+#### ♻️ Changed
+
+- Update typescript-eslint packages to v5.23.0 [#263](https://github.com/stormwarning/zazen-eslint-config/pull/263)
+- Update eslint-plugin-n to v15.2.0 [#264](https://github.com/stormwarning/zazen-eslint-config/pull/264)
+- Update eslint-plugin-unicorn to v42 [#270](https://github.com/stormwarning/zazen-eslint-config/pull/270)
+- Update eslint-plugin-import to v2.26.0 [#271](https://github.com/stormwarning/zazen-eslint-config/pull/271)
+
 ## 5.1.0 — 2022-03-17
 
 #### 🗑️ Removed
