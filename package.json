@@ -35,31 +35,31 @@
     "trailingComma": "all"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "5.23.0",
-    "@typescript-eslint/parser": "5.23.0",
+    "@typescript-eslint/eslint-plugin": "5.39.0",
+    "@typescript-eslint/parser": "5.39.0",
     "eslint-config-prettier": "8.5.0",
-    "eslint-config-xo": "0.40.0",
-    "eslint-config-xo-typescript": "0.50.0",
+    "eslint-config-xo": "0.42.0",
+    "eslint-config-xo-typescript": "0.53.0",
     "eslint-plugin-etc": "2.0.2",
     "eslint-plugin-import": "2.26.0",
-    "eslint-plugin-n": "15.2.0",
+    "eslint-plugin-n": "15.3.0",
     "eslint-plugin-prefer-let": "3.0.1",
-    "eslint-plugin-promise": "6.0.0",
-    "eslint-plugin-unicorn": "42.0.0"
+    "eslint-plugin-promise": "6.0.1",
+    "eslint-plugin-unicorn": "44.0.0"
   },
   "devDependencies": {
-    "@changesets/changelog-github": "0.4.4",
-    "@changesets/cli": "2.22.0",
-    "ava": "4.2.0",
-    "eslint": "8.15.0",
+    "@changesets/changelog-github": "0.4.7",
+    "@changesets/cli": "2.25.0",
+    "ava": "4.3.3",
+    "eslint": "8.24.0",
     "husky": "8.0.1",
-    "is-plain-obj": "4.0.0",
-    "lint-staged": "12.4.1",
-    "prettier": "2.6.2",
-    "prettier-plugin-packagejson": "2.2.18"
+    "is-plain-obj": "4.1.0",
+    "lint-staged": "13.0.3",
+    "prettier": "2.7.1",
+    "prettier-plugin-packagejson": "2.3.0"
   },
   "peerDependencies": {
-    "eslint": ">=7.28",
+    "eslint": ">=8.23.1",
     "prettier": ">=2"
   },
   "engines": {
