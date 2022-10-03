@@ -1,10 +1,10 @@
 # Change Log
 
-## 6.0.0
+## 6.0.0 — 2022-10-03
 
-### Major Changes
+### 💣 Breaking Change
 
-- [#295](https://github.com/stormwarning/zazen-eslint-config/pull/295) [`f49ec6e`](https://github.com/stormwarning/zazen-eslint-config/commit/f49ec6e5b3901fe3e73ff7c13474686937768fab) Thanks [@stormwarning](https://github.com/stormwarning)! - Upgrade plugin dependencies
+- Upgrade plugin dependencies [#295](https://github.com/stormwarning/zazen-eslint-config/pull/295)
 
   Also drops support for ESLint v7 (minimum version for the latest `eslint-plugin-unicorn` is v8.23.1).
 
