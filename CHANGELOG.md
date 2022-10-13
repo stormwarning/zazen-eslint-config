@@ -1,20 +1,17 @@
 # Change Log
 
-## 6.1.0
+## 6.1.0 — 2022-10-13
 
 ### Minor Changes
 
-- [#299](https://github.com/stormwarning/zazen-eslint-config/pull/299) [`b1c5c86`](https://github.com/stormwarning/zazen-eslint-config/commit/b1c5c8698d0610ef424afe7d067a46ce729e6dea) Thanks [@renovate](https://github.com/apps/renovate)! - Update eslint-plugin-promise to v6.1.0
-
-- [#298](https://github.com/stormwarning/zazen-eslint-config/pull/298) [`43986f1`](https://github.com/stormwarning/zazen-eslint-config/commit/43986f175082f26eaa1f5f4577b4383b27222ad4) Thanks [@renovate](https://github.com/apps/renovate)! - Update typescript-eslint monorepo to v5.40.0
-
-- [#301](https://github.com/stormwarning/zazen-eslint-config/pull/301) [`7a16757`](https://github.com/stormwarning/zazen-eslint-config/commit/7a16757c70d7626abdaee8c6d9c911ee757bb050) Thanks [@stormwarning](https://github.com/stormwarning)! - Add import sorting rules
-
-- [#300](https://github.com/stormwarning/zazen-eslint-config/pull/300) [`5d6bf9d`](https://github.com/stormwarning/zazen-eslint-config/commit/5d6bf9dfb08f1d19b68fd0a2809a31eb315d2728) Thanks [@stormwarning](https://github.com/stormwarning)! - Allow `args` and `lib` abbreviations
+- Add import sorting rules [#301](https://github.com/stormwarning/zazen-eslint-config/pull/301)
+- Allow `args` and `lib` abbreviations [#300](https://github.com/stormwarning/zazen-eslint-config/pull/300)
+- Update eslint-plugin-promise to v6.1.0 [#299](https://github.com/stormwarning/zazen-eslint-config/pull/299)
+- Update typescript-eslint monorepo to v5.40.0 [#298](https://github.com/stormwarning/zazen-eslint-config/pull/298)
 
 ### Patch Changes
 
-- [#297](https://github.com/stormwarning/zazen-eslint-config/pull/297) [`269ac9e`](https://github.com/stormwarning/zazen-eslint-config/commit/269ac9edb41c062ac84df265e153bec32dd5d8c2) Thanks [@renovate](https://github.com/apps/renovate)! - Update eslint-plugin-unicorn to v44.0.2
+- Update eslint-plugin-unicorn to v44.0.2 [#297](https://github.com/stormwarning/zazen-eslint-config/pull/297)
 
 ## 6.0.0 — 2022-10-03
 
