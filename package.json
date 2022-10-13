@@ -1,6 +1,6 @@
 {
   "name": "@zazen/eslint-config",
-  "version": "6.0.0",
+  "version": "6.1.0",
   "description": "Lint JavaScript, free of weariness and confusion",
   "keywords": [
     "eslint-config",

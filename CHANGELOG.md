@@ -1,5 +1,18 @@
 # Change Log
 
+## 6.1.0 — 2022-10-13
+
+### Minor Changes
+
+- Add import sorting rules [#301](https://github.com/stormwarning/zazen-eslint-config/pull/301)
+- Allow `args` and `lib` abbreviations [#300](https://github.com/stormwarning/zazen-eslint-config/pull/300)
+- Update eslint-plugin-promise to v6.1.0 [#299](https://github.com/stormwarning/zazen-eslint-config/pull/299)
+- Update typescript-eslint monorepo to v5.40.0 [#298](https://github.com/stormwarning/zazen-eslint-config/pull/298)
+
+### Patch Changes
+
+- Update eslint-plugin-unicorn to v44.0.2 [#297](https://github.com/stormwarning/zazen-eslint-config/pull/297)
+
 ## 6.0.0 — 2022-10-03
 
 ### 💣 Breaking Change
