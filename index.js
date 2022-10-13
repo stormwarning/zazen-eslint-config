@@ -42,6 +42,11 @@ module.exports = {
 		'unicorn/no-null': 'off',
 		'unicorn/no-useless-undefined': 'off',
 		'unicorn/prefer-ternary': ['error', 'only-single-line'],
+		/** https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prevent-abbreviations.md */
+		'unicorn/prevent-abbreviations': [
+			'error',
+			{ allowList: { args: true, lib: true } },
+		],
 
 		'promise/param-names': 'error',
 		'promise/no-return-wrap': ['error', { allowReject: true }],
