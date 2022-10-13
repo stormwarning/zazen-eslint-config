@@ -79,5 +79,33 @@ module.exports = {
 		'import/no-unresolved': 'off',
 		'import/no-useless-path-segments': 'error',
 		'import/no-webpack-loader-syntax': 'error',
+		'import/order': [
+			'error',
+			{
+				alphabetize: {
+					caseInsensitive: true,
+					order: 'asc',
+				},
+				groups: [
+					'builtin',
+					'external',
+					'internal',
+					'parent',
+					['sibling', 'index'],
+					'type',
+				],
+				'newlines-between': 'always',
+				pathGroups: [
+					{
+						pattern: '*.+(css)',
+						group: 'type',
+						position: 'after',
+						patternOptions: {
+							matchBase: true,
+						},
+					},
+				],
+			},
+		],
 	},
 }
