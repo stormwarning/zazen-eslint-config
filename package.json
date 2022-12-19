@@ -48,8 +48,8 @@
     "eslint-plugin-unicorn": "44.0.2"
   },
   "devDependencies": {
-    "@changesets/changelog-github": "0.4.7",
-    "@changesets/cli": "2.25.2",
+    "@changesets/changelog-github": "0.4.8",
+    "@changesets/cli": "2.26.0",
     "ava": "4.3.3",
     "eslint": "8.25.0",
     "husky": "8.0.2",
