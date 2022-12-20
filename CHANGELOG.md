@@ -1,5 +1,19 @@
 # Change Log
 
+## 6.2.0 — 2022-12-19
+
+### Minor Changes
+
+- Update @typescript-eslint/eslint-plugin to v5.46.0 [#304](https://github.com/stormwarning/zazen-eslint-config/pull/304)
+- Update eslint-config-xo to v0.43.1 [#311](https://github.com/stormwarning/zazen-eslint-config/pull/311)
+- Update eslint-config-xo-typescript to v0.55.1 [#312](https://github.com/stormwarning/zazen-eslint-config/pull/312)
+- Update eslint-plugin-unicorn to v45 [#313](https://github.com/stormwarning/zazen-eslint-config/pull/313)
+
+### Patch Changes
+
+- Update eslint-plugin-promise to v6.1.1 [#305](https://github.com/stormwarning/zazen-eslint-config/pull/305)
+- Update eslint-plugin-n to v15.5.2 [#309](https://github.com/stormwarning/zazen-eslint-config/pull/309)
+
 ## 6.1.0 — 2022-10-13
 
 ### Minor Changes
