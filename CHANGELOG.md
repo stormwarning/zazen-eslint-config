@@ -1,5 +1,23 @@
 # Change Log
 
+## 6.2.0
+
+### Minor Changes
+
+- [#313](https://github.com/stormwarning/zazen-eslint-config/pull/313) [`1f5dc55`](https://github.com/stormwarning/zazen-eslint-config/commit/1f5dc552ee8b55b6c46a3c807a72538e12cacbef) Thanks [@renovate](https://github.com/apps/renovate)! - Update `eslint-plugin-unicorn` to v45
+
+- [#311](https://github.com/stormwarning/zazen-eslint-config/pull/311) [`19252c7`](https://github.com/stormwarning/zazen-eslint-config/commit/19252c71ade04aeddfea60a311adf8e45e297e32) Thanks [@renovate](https://github.com/apps/renovate)! - Update `eslint-config-xo` to v0.43.1
+
+- [#304](https://github.com/stormwarning/zazen-eslint-config/pull/304) [`d7b3886`](https://github.com/stormwarning/zazen-eslint-config/commit/d7b38869a98694c9294e07522c24cdc5d045e57c) Thanks [@renovate](https://github.com/apps/renovate)! - Update `@typescript-eslint/eslint-plugin` to v5.46.0
+
+- [#312](https://github.com/stormwarning/zazen-eslint-config/pull/312) [`464c45d`](https://github.com/stormwarning/zazen-eslint-config/commit/464c45dc2156c11ba0833356f5f9fcf13273bd4a) Thanks [@renovate](https://github.com/apps/renovate)! - Update `eslint-config-xo-typescript` to v0.55.1
+
+### Patch Changes
+
+- [#309](https://github.com/stormwarning/zazen-eslint-config/pull/309) [`e8cefd1`](https://github.com/stormwarning/zazen-eslint-config/commit/e8cefd150dd9d9c91e57d76a88e78d459207e8b4) Thanks [@renovate](https://github.com/apps/renovate)! - Update `eslint-plugin-n` to v15.5.2
+
+- [#305](https://github.com/stormwarning/zazen-eslint-config/pull/305) [`a591011`](https://github.com/stormwarning/zazen-eslint-config/commit/a591011f630f00f66d2181a7b72dd840358fc8e2) Thanks [@renovate](https://github.com/apps/renovate)! - Update `eslint-plugin-promise` to v6.1.1
+
 ## 6.1.0 — 2022-10-13
 
 ### Minor Changes
