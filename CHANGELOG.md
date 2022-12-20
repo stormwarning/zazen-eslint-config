@@ -1,5 +1,11 @@
 # Change Log
 
+## 6.2.1 — 2022-12-20
+
+### Patch Changes
+
+- Update typescript-eslint monorepo to v5.47.0 [#318](https://github.com/stormwarning/zazen-eslint-config/pull/318)
+
 ## 6.2.0 — 2022-12-19
 
 ### Minor Changes
