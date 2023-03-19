@@ -1,5 +1,25 @@
 # Change Log
 
+## 6.3.0
+
+### Minor Changes
+
+- [#335](https://github.com/stormwarning/zazen-eslint-config/pull/335) [`be8a9a0`](https://github.com/stormwarning/zazen-eslint-config/commit/be8a9a0d0b311271ecdd6a62c8b7be96c5273f6b) Thanks [@renovate](https://github.com/apps/renovate)! - Update eslint-plugin-unicorn to v46
+
+- [#322](https://github.com/stormwarning/zazen-eslint-config/pull/322) [`82dc849`](https://github.com/stormwarning/zazen-eslint-config/commit/82dc84929c04125507b77c92e5be3de53cb43a3b) Thanks [@renovate](https://github.com/apps/renovate)! - Update eslint-config-prettier to v8.7.0
+
+- [#320](https://github.com/stormwarning/zazen-eslint-config/pull/320) [`612986d`](https://github.com/stormwarning/zazen-eslint-config/commit/612986d7f5338abc0b703257db8ccd0b5fe233d7) Thanks [@renovate](https://github.com/apps/renovate)! - Update typescript-eslint monorepo to v5.55.0
+
+- [#328](https://github.com/stormwarning/zazen-eslint-config/pull/328) [`e6cfea6`](https://github.com/stormwarning/zazen-eslint-config/commit/e6cfea63b6b10cb8e0ef9188e6ddd057ab52d545) Thanks [@renovate](https://github.com/apps/renovate)! - Update eslint-plugin-import to v2.27.5
+
+### Patch Changes
+
+- [#327](https://github.com/stormwarning/zazen-eslint-config/pull/327) [`ab6bbc5`](https://github.com/stormwarning/zazen-eslint-config/commit/ab6bbc543d7613e5db37672ed67c5756009597ba) Thanks [@renovate](https://github.com/apps/renovate)! - Update eslint-plugin-n to v15.6.1
+
+- [#332](https://github.com/stormwarning/zazen-eslint-config/pull/332) [`db2edec`](https://github.com/stormwarning/zazen-eslint-config/commit/db2edec1afaf05f4a8a8850bc978249a0983654a) Thanks [@renovate](https://github.com/apps/renovate)! - Update eslint-config-xo-typescript to v0.56.0
+
+- [#331](https://github.com/stormwarning/zazen-eslint-config/pull/331) [`49fb92c`](https://github.com/stormwarning/zazen-eslint-config/commit/49fb92c0606a42b3f0ba0d7624de5f9304b1a07f) Thanks [@stormwarning](https://github.com/stormwarning)! - Patch ESLint’s module resolution so plugins work more reliably
+
 ## 6.2.1 — 2022-12-20
 
 ### Patch Changes
