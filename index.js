@@ -1,6 +1,11 @@
-'use strict'
+/**
+ * @see https://github.com/eslint/eslint/issues/3458
+ * @see https://www.npmjs.com/package/@rushstack/eslint-patch
+ */
+require('@rushstack/eslint-patch/modern-module-resolution')
 
-module.exports = {
+/** @type {import('eslint').Linter.Config} */
+const config = {
 	root: true,
 	parserOptions: {
 		ecmaFeatures: { jsx: true },
@@ -114,3 +119,5 @@ module.exports = {
 		],
 	},
 }
+
+module.exports = config
