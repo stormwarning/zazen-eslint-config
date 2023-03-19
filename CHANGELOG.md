@@ -1,5 +1,20 @@
 # Change Log
 
+## 6.3.0 — 2023-03-19
+
+### Minor Changes
+
+- Update eslint-plugin-unicorn to v46 [#335](https://github.com/stormwarning/zazen-eslint-config/pull/335)
+- Update eslint-config-prettier to v8.7.0 [#322](https://github.com/stormwarning/zazen-eslint-config/pull/322)
+- Update typescript-eslint monorepo to v5.55.0 [#320](https://github.com/stormwarning/zazen-eslint-config/pull/320)
+- Update eslint-plugin-import to v2.27.5 [#328](https://github.com/stormwarning/zazen-eslint-config/pull/328)
+
+### Patch Changes
+
+- Patch ESLint’s module resolution so plugins work more reliably [#331](https://github.com/stormwarning/zazen-eslint-config/pull/331)
+- Update eslint-plugin-n to v15.6.1 [#327](https://github.com/stormwarning/zazen-eslint-config/pull/327)
+- Update eslint-config-xo-typescript to v0.56.0 [#332](https://github.com/stormwarning/zazen-eslint-config/pull/332)
+
 ## 6.2.1 — 2022-12-20
 
 ### Patch Changes
