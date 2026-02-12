@@ -46,7 +46,7 @@
     "eslint-plugin-n": "15.6.1",
     "eslint-plugin-prefer-let": "3.0.1",
     "eslint-plugin-promise": "6.1.1",
-    "eslint-plugin-unicorn": "46.0.0"
+    "eslint-plugin-unicorn": "46.0.1"
   },
   "devDependencies": {
     "@changesets/changelog-github": "0.4.8",
