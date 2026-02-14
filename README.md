@@ -3,7 +3,10 @@
 [![npm version][npm-img]][npm-url]
 [![npm downloads][npm-dls]][npm-url]
 
-[ESLint][] configuration for [zazen][]-generated projects.
+[ESLint] configuration for [zazen]-generated projects.
+
+> [!WARNING]
+> This package has been moved to the [zazen] monorepo.
 
 ## Usage
 
